@@ -1,0 +1,38 @@
+@theme-color1: coral;
+@theme-color2: powderblue;
+@margin-10: 10px;
+
+
+html { 
+  direction: ltr;
+  font-family: tahoma;
+}
+header {
+  color: @theme-color1;
+  }
+main { 
+  color: @theme-color1 + 32;
+  }
+  
+footer {
+  background-color: @theme-color1;
+  color: @theme-color2;
+ }
+input {
+  margin-bottom: @margin-10;
+  color: @theme-color1;
+  background-color: desaturate (@theme-color2 , 40%);
+  }
+a {
+  margin-top: @margin-10;
+  }
+  
+button {
+  background-color: @theme-color1;
+  color: @theme-color2;
+  }
+  
+.container {
+  text-align: center;
+  background-color: @theme-color2;
+  }
